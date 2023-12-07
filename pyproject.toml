@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "discord-roll-call-bot"
+version = "0.1.0"
+description = "A Discord Bot for keeping track of who joined and who didn't join a Discord voice channel"
+authors = ["Bradley Marques <bradleyrcmarques@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+"discord.py" = "^2.3.2"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
